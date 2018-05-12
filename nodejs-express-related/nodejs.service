@@ -1,0 +1,18 @@
+[Unit]
+Description=Cash register site
+Documentation=https://github.com/StGreg13/check-till
+After=network.target
+
+[Service]
+#Environment=NODE_PORT=3001
+Type=simple
+User=srv-node-sample
+Group=srv-node-sample
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nodejs
+ExecStart=/usr/bin/nodejs /home/express.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
