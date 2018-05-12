@@ -1,0 +1,14 @@
+.fs {
+	margin-bottom: 10%;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.fs li{
+	text-decoration: none;
+}
+
+.creators {
+	list-style-type: none;
+	
+}
