@@ -1128,7 +1128,7 @@ th {
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 :before,
@@ -1724,7 +1724,7 @@ pre code {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 @media (min-width:768px) {
@@ -1754,7 +1754,7 @@ pre code {
 
 .row {
 	margin-right: -15px;
-	margin-left: -15px
+	margin-left: -15px;
 }
 
 .col-xs-1,
@@ -1807,7 +1807,7 @@ pre code {
 .col-lg-12 {
 	position: relative;
 	min-height: 1px;
-	padding-right: 15px;
+	padding-right: 25px;
 	padding-left: 15px
 }
 
