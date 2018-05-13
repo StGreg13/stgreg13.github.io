@@ -60,7 +60,38 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
+.itempage {
+    position: relative;
+    margin-top: 130px;
+}
+.txt{
+	text-align: center;
+}
+.fs {
+    
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+	}
 
+/*.fs {
+	margin: 0 auto;
+	display: inline-flex;
+	position: inherit ;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: rgba(255,255,255,.95);
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.17);
+    z-index: 14;
+}
+.fs li {
+	list-style-type: none;
+		}
+*/
 .btn-primary {
   padding: 8px 20px;
   background: #E8CE0E;

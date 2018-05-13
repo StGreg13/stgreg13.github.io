@@ -12,3 +12,8 @@
 	list-style-type: none;
 	
 }
+
+.slider {
+    position: relative;
+    margin-top: 130px;
+}
