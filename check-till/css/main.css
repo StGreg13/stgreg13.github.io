@@ -415,6 +415,7 @@ ul.social-share li a:hover {
 }
 
 .feature-wrap {
+  vertical-align: top;
   margin-bottom: 35px;
   overflow: hidden;
 }
