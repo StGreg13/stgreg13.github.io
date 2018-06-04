@@ -1,0 +1,150 @@
+$active : #efae02
+
+@mixin after
+  &:after
+    position: absolute
+    left: 0
+    bottom: 15px
+    content: ''
+    height: 2px
+    width: 100%
+    background-color: $active
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  outline: none
+
+body
+  height: 100vh
+  background: url(../img/bg.png) center no-repeat
+  background-size: cover
+  font-family: 'Open Sans', sans-serif
+
+
+
+.calc
+  height: 650px
+  width: 1024px
+  border: 2px solid $active
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: start
+  margin: 0 auto
+  margin-top: 30px
+
+.tabs
+  width: 100%
+  padding-top: 25px
+  padding-bottom: 20px
+  display: flex
+  justify-content: center
+  .tab-left, .tab-right
+
+    width: 200px
+    height: 70px
+    border-radius: 0 15px 0 0
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.77) 0%, #323131 100%)
+    color: #cecece
+    font-size: 18px
+    font-weight: 700
+    line-height: 72px
+    text-align: center
+    cursor: pointer
+  .tab-left
+    border-radius: 15px 0 0 0
+
+  .active
+    background: $active
+    color: #000
+    position: relative
+    &:after
+      position: absolute
+      left: 0
+      bottom: -7px
+      content: ''
+      height: 2px
+      width: 200px
+      background-color: $active
+
+.hidden
+  display: none !important
+
+.blocks
+  width: 70%
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  font-size: 30px
+  font-weight: 700
+  color: #fff
+  margin-top: 15px
+  margin-bottom: 15px
+  &-title
+    position: relative
+    @include after
+
+.counter
+  // Style for "Прямоуголь"
+  width: 132px
+  height: 60px
+  border: 3px solid $active
+  background: transparent
+  color: $active
+  font-size: 48px
+  font-weight: 700
+  line-height: 72px
+  // Text style for "10"
+  letter-spacing: -0.48px
+  text-align: center
+  overflow: hidden
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+.addiction
+  width: 70%
+  display: flex
+  flex-direction: column
+  margin-bottom: 0
+  &-title
+    color: $active
+    font-size: 30px
+    font-weight: 700
+    line-height: 72px
+    text-align: center
+  &-block
+    color: $active
+    font-size: 30px
+    font-weight: 700
+    line-height: 50px
+
+.checkbox
+  height: 20px
+  width: 20px
+  opacity: 0.5
+
+.total
+  color: #fff
+  font-size: 36px
+  font-weight: 700
+  line-height: 72px
+  width: 70%
+  margin-left: 68px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  &-count
+    height: 60px
+    width: 200px
+    color: $active
+    font-size: 56px
+    font-weight: 700
+    line-height: 72px
+    // Text style for "2, 1500"
+    letter-spacing: -0.56px
+    background-color: transparent
+    border: none
+    text-align: right

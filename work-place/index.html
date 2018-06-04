@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="script" href="js/common.js">
+    <title>calc</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="tabs">
+            <div class="tab-left active">Лендинг</div>
+            <div class="tab-right">Многостраничник</div>
+        </div>
+
+        <div class="blocks" id="blocks-block">
+            <div class="blocks-title">Количество блоков</div>
+            <input type="number" class="counter" id="counter-block">
+        </div>
+        <div class="blocks hidden" id="pages-block">
+            <div class="blocks-title">Количество страниц</div>
+            <input type="number" class="counter" id="counter-pages">
+        </div>
+        <div class="blocks" >
+            <div class="blocks-title">Сколько часов на проект</div>
+            <input type="number" class="counter" id="counter-hours">
+        </div>
+        <div class="blocks" id="pages">
+            <div class="blocks-title">Стоимость вашего часа</div>
+            <input type="number" class="counter" id="counter-rate">
+        </div>
+
+        <div class="addiction">
+            <div class="addiction-title">Дополнительно</div>
+            <div class="addiction-block">
+                <input type="checkbox" class="checkbox" id="changes-check">
+                Возможность редактирования на сайте
+            </div>
+            <div class="addiction-block">
+                <input type="checkbox" class="checkbox" id="cms-check">
+                Посадка на CMS
+            </div>
+        </div>
+
+        <div class="total">
+            Общая стоимость
+            <input type="text" value="5000" class="total-count" id="total-value">
+        </div>
+
+    </div>
+
+    <script src="js/common.js"></script>
+</body>
+</html>
