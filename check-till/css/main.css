@@ -350,6 +350,19 @@ ul.social-share li a:hover {
   margin-top:130px;
 }
 
+.buy {
+	transition: 300ms;
+	border: none;
+	border-width: 50px;
+	border-radius:3px;
+	background-color: #f79059;
+	padding: 5px 15px;
+}
+
+.buy:hover {
+	color: white;
+}
+
 #carousel-slider {
   position: relative;
 }
