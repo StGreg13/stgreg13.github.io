@@ -131,10 +131,6 @@ a:focus {
   margin-left: 20px;
 }
 
-body > section {
-  padding: 70px 0;
-}
-
 .center {
   text-align: center;
   padding-bottom: 55px;
@@ -191,7 +187,7 @@ body > section {
 *******Header******
 **************************/
 .navbar-fixed-top .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #f79059;
 }
 
 .navbar>.container .navbar-brand{
