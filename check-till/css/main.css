@@ -12,6 +12,15 @@ body {
   line-height:1.6em;
 }
 
+.item{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+	display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
 h1,
 h2,
 h3,
@@ -62,6 +71,24 @@ a:hover, a:focus {
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
+}
+
+table {
+  border: 2px;
+    width: 100%; /* Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 5px; /* Расстояние между ячейками */
+   }
+td, th {
+    padding: 10px; /* Поля вокруг текста */
+   }
+img {
+  width: 150px;
+    height: 150px;
+}
+.billinf {
+  color: black;
 }
 
 .itempage {
@@ -186,6 +213,10 @@ a:focus {
 /*************************
 *******Header******
 **************************/
+
+.navbar {
+	background: #f5f5f5;
+}
 .navbar-fixed-top .navbar-toggle .icon-bar {
   background-color: #f79059;
 }

@@ -1,0 +1,43 @@
+@import url(http://allfont.ru/allfont.css?fonts=bip);
+@font-face{
+	font-family: BIP;
+	src: url(font/bip_regular.ttf);
+}
+p{
+	font-family:  'BIP';
+	color: #307F9E;
+	font-size: 32px;
+}
+.main{
+	position: absolute;	
+	text-align: center;
+	background: linear-gradient(100.06deg, #1BAAE2 -23.86%, #8BE8F7 36%, #00D9F4 111.57%);
+}
+.text_block {
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	margin-bottom: 35px;
+}
+.next {
+	width: 80%; height: 20%;
+	display: inline-block;
+	border: 2px;
+	border-radius: 50px;
+	text-align: center;
+	background: linear-gradient(180deg, #FAD781 0%, #EFC253 100%);
+	box-shadow: 0px 4px 30px #FFFFFF;
+}
+.next img {
+	margin: -5px;
+	margin-left: 15px;
+}
+.test {
+	font-size: 20px;
+}
+.footer{
+	margin-top: 200px;
+	position: relative;
+	text-align: center;
+	
+}
