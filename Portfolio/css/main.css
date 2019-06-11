@@ -1,0 +1,33 @@
+.section-main {
+  padding-top: 30vh;
+  height: 100vh;
+  background-image: url(../img/background.png);
+}
+
+.section-design {
+  padding: 50px 150px;
+}
+
+.section-works {
+  padding: 50px 0px;
+}
+.section-works h4 {
+  padding-bottom: 50px;
+}
+.section-learning {
+  padding: 50px 0px;
+}
+.section-learning h4 {
+  padding-bottom: 50px;
+}
+.callback p {
+  margin: 2.5em;
+}
+.social-links a {
+  margin: 0 5px;
+}
+@media (max-width: 600px) {
+  .working div {
+    margin: 5px;
+  }
+}
