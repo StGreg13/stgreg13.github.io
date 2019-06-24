@@ -21,7 +21,8 @@
     ></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Custom Materialize Theme</title>
+    <title>Gregory main</title>
+    <link rel="stylesheet" href="fonts/MuseoSans/stylesheet.css" />
   </head>
 
   <body class="black">
@@ -33,10 +34,7 @@
             <a href="#" data-activates="mobile-nav" class="button-collapse">
               <i class="material-icons">menu</i>
             </a>
-            <ul class="right hide-on-med-and-down">
-              <li>
-                <a href="#home">Главная</a>
-              </li>
+            <ul class="right hide-on-med-and-down menu-item">
               <li>
                 <a href="#order">Заказ</a>
               </li>
@@ -56,9 +54,6 @@
     </div>
     <ul class="side-nav" id="mobile-nav">
       <li>
-        <a href="#home">Главная</a>
-      </li>
-      <li>
         <a href="#order">Заказ</a>
       </li>
       <li>
@@ -77,7 +72,7 @@
         <div class="col s12">
           <h1>ГРИША ИЗ ПСКОВА</h1>
           <h3>WEB-<span class="red-text">DEVELOPER</span></h3>
-          <h5>HTML \ CSS \ JS</h5>
+          <h5>HTML / CSS / JS</h5>
         </div>
       </div>
     </section>
@@ -86,18 +81,23 @@
       <div class="row">
         <div class="col s12 ">
           <img src="img/magma.png" alt="" class="img  responsive-img" />
-          <p>
+          <p style="margin: 25px auto; max-width: 650px;">
             Ма́гма (др.-греч. μάγμα «месиво, густая мазь») — природный, чаще
             всего силикатный, раскалённый, жидкий расплав, возникающий в земной
             коре или в верхней мантии, на больших глубинах.
           </p>
 
-          <a href="#contact" class="btn grey darken-3">ЗАПОЛНИТЬ БРИФ</a>
+          <a href="#contact" class="btn btn-large grey darken-3"
+            >ЗАПОЛНИТЬ БРИФ</a
+          >
         </div>
       </div>
     </section>
 
-    <section class="section section-works center grey lighten-2" id="work">
+    <section
+      class="section section-works center grey lighten-2 grey-text text-darken-3"
+      id="work"
+    >
       <div class="row">
         <div class="col s12 working">
           <h4>Итоги моего труда</h4>
@@ -166,7 +166,7 @@
     >
       <div class="row">
         <h4>Обучен по направлениям</h4>
-        <div class="col s12 m6">
+        <div class="col s12 m6" style="padding-left: 100px">
           <div class="row">
             <div class="col s6">
               <p>HTML</p>
@@ -177,7 +177,6 @@
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col s6">
               <p>CSS</p>
@@ -222,23 +221,26 @@
 
     <section class="section section-order red center white-text" id="contact">
       <div class="row">
-        <h3>Здесь принимаются заказы</h3>
+        <h4>Здесь принимаются заказы</h4>
         <div class="col s12 m6 callback">
           <p>Можете возвонить вы</p>
 
-          <div class="phone">
-            <p><i class="material-icons prefix">phone</i> +7(981)880-8269</p>
-          </div>
-          <div class="email">
+          <div class="phone inf-block">
+            <i class="material-icons prefix" style="float:left;">phone</i>
             <p>
-              <i class="material-icons prefix" style="padding-top: 5px">mail</i>
+              +7(981)880-8269
+            </p>
+          </div>
+          <div class="email inf-block">
+            <i class="material-icons prefix" style="float:left;">mail</i>
+            <p>
               pskov.greg@gmail.com
             </p>
           </div>
           <div class="social-links">
-            <a href="https://twitter.com/">Twitter</a>
-            <a href="https://www.behance.net/">Behance</a>
+            <a href="https://vk.com/greg_13">VK</a>
             <a href="https://github.com/StGreg13">GitHub</a>
+            <a href="https://www.behance.net/">Behance</a>
             <a href="https://dribbble.com/">Dribbble</a>
           </div>
         </div>
@@ -249,15 +251,20 @@
             <input type="email" placeholder="E-mail" required />
             <input type="tel" placeholder="Телефон" required />
             <p class="main-request-submit">
-              <button class="btn grey large" type="submit">Отправить</button>
+              <button class="btn btn-large grey darken-3" type="submit">
+                Отправить
+              </button>
             </p>
           </form>
         </div>
       </div>
     </section>
 
-    <footer class="white-text">
-      <div class="container" style="height: 50px; margin-top: 20px">
+    <footer
+      class="white-text grey darken-4"
+      style="height: 70px; padding-top: 25px"
+    >
+      <div class="container">
         GS
         <a class="grey-text text-lighten-4 right" href="#!">
           All rights reserved © 2019
