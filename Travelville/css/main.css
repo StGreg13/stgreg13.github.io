@@ -1,3 +1,6 @@
+.translate-active {
+  font-weight: bold;
+}
 .slider .btn {
   margin-top: 20px;
 }
