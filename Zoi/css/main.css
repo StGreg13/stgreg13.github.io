@@ -25,6 +25,7 @@
   color: #272727;
   font-size: 2rem;
   text-transform: uppercase;
+  transition: 0.5s linear;
 }
 
 .nav-block .active {
@@ -79,6 +80,7 @@
   z-index: 1;
 }
 .card-panel-mail {
+  font-size: 1.4rem;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -182,5 +184,12 @@
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
+  }
+  .main-header .showcase {
+    padding-top: 0;
+  }
+  .main-text h1 {
+    font-size: 4rem;
+    letter-spacing: unset;
   }
 }
