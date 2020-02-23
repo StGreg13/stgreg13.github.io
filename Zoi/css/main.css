@@ -180,7 +180,9 @@
   left: 0;
   z-index: 0;
 }
-
+.card-title {
+  display: none;
+}
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
@@ -191,5 +193,8 @@
   .main-text h1 {
     font-size: 4rem;
     letter-spacing: unset;
+  }
+  .card-title {
+    display: block;
   }
 }
