@@ -5,7 +5,7 @@
 }
 
 .section-design {
-  padding: 50px;
+  padding: 150px 50px;
 }
 
 .menu-item a {
@@ -15,12 +15,15 @@
 .section-works {
   padding: 50px 0px;
 }
+
 .section-works h4 {
   padding-bottom: 50px;
 }
+
 .section-learning {
   padding: 50px 0px;
 }
+
 .section-learning h4 {
   padding-bottom: 50px;
 }
@@ -36,10 +39,12 @@
 .callback p {
   margin: 2.5em;
 }
+
 .social-links a {
   margin: 0 5px;
   color: #ffffff;
 }
+
 .social-links a:hover {
   color: #303030;
 }

@@ -1,0 +1,186 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.primary-overlay {
+  /* background: rgba(63, 57, 77, 0.7); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/main-roller/nud.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+.nav-block li a {
+  color: #272727;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.nav-block .active {
+  color: #272727;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-header .showcase {
+  padding-top: 50px;
+}
+
+.main-text h1 {
+  color: #fefefe;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.main-text p {
+  color: #272727;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+.card-panel-mail {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.social {
+  margin: 250px 0;
+  background: #fbdcc9;
+}
+
+.follow-links {
+  text-align: center;
+}
+
+.follow-links h3 {
+  padding-top: 50px;
+  font-size: 4rem;
+}
+.follow-links p {
+  padding-top: 35px;
+  font-size: 2rem;
+}
+.social-icons-links {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.social-icons-links a {
+  width: 50px;
+  height: 50px;
+  color: #000000;
+  padding: 0 15px;
+  transition: 0.5s linear;
+}
+.social-icons-links a:hover {
+  color: rgba(63, 57, 77, 0.7);
+}
+.card-image {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.img-content {
+  padding-top: 40%;
+  text-align: center;
+}
+
+.img-content h3 {
+  color: #272727;
+}
+.img-content a {
+  color: #959086;
+  font-size: 1.5rem;
+  transition: 0.5s linear;
+}
+.img-content a:hover {
+  color: #272727;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-panel {
+  background: #fbdcc9;
+  color: #272727;
+}
+.card-panel-grey {
+  background: #eeeeee !important;
+}
+
+.card-panel-grey input {
+  background: #fbdcc9;
+  color: #272727;
+  transition: 0.5s linear;
+}
+.card-panel-grey input:hover {
+  background: #fbdcc9;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.collection-item img {
+  width: 40px;
+}
+.collection-item a {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #272727;
+  font-size: 1.5rem;
+  transition: 0.5s linear;
+}
+
+.collection-item a:hover {
+  font-weight: bold;
+}
+
+.collection-item {
+  display: flex;
+}
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
