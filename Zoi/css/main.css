@@ -11,7 +11,9 @@
   height: 100%;
   overflow: hidden;
 }
-
+.header-color {
+  background: #fbdcc9;
+}
 .main-header {
   background: url(../img/main-roller/nud.png);
   background-size: cover;
@@ -85,25 +87,24 @@
   letter-spacing: 1px;
 }
 .social {
-  margin: 250px 0;
+  margin: 100px 0;
   background: #fbdcc9;
 }
 
 .follow-links {
+  padding-top: 40px;
   text-align: center;
 }
 
 .follow-links h3 {
-  padding-top: 50px;
   font-size: 4rem;
 }
 .follow-links p {
-  padding-top: 35px;
   font-size: 2rem;
 }
 .social-icons-links {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .social-icons-links a {
   width: 50px;
@@ -183,6 +184,52 @@
 .card-title {
   display: none;
 }
+.about-main {
+  padding-top: 50px;
+}
+.about-section {
+  /* height: 95vh; */
+  background: rgba(251, 220, 201, 0.5);
+}
+.about-photo {
+  text-align: center;
+}
+.about-me {
+  text-align: center;
+  padding-top: 20%;
+}
+.about-me h2 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.about-me p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 10px;
+}
+.terms-block {
+  padding-top: 30px;
+  padding-left: 170px;
+}
+.terms-block p {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.terms-block ul li {
+  font-size: 2.3rem;
+  line-height: 55px;
+  text-transform: uppercase;
+  list-style-type: disc;
+}
+
+.footer {
+  margin-top: -20px;
+  height: 50px;
+  background: rgba(251, 220, 201, 0.25);
+}
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
@@ -196,5 +243,18 @@
   }
   .card-title {
     display: block;
+  }
+  .terms-block {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .about-me h2 {
+    font-size: 4rem;
+  }
+  .about-me p {
+    font-size: 1.7rem;
+  }
+  .terms-block ul li {
+    font-size: 2rem;
   }
 }

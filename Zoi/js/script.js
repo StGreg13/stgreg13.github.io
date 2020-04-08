@@ -30,3 +30,31 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active-dot";
 }
+
+$(document).ready(function() {
+  // Custom JS & jQuery here
+  $(".button-collapse").sideNav();
+  // Init Slider
+  $(".slider").slider({
+    indicators: false,
+    height: 500,
+    transition: 500,
+    interval: 6000
+  });
+  //Autocomplete
+  $(".autocomplete").autocomplete({
+    data: {
+      Aruba: null,
+      "Cancun Mexico": null,
+      Hawaii: null,
+      Florida: null,
+      California: null,
+      Jamaica: null,
+      Europe: null,
+      "The Bahamas": null
+    }
+  });
+
+  //Init scrollspy
+  $(".scrollspy").scrollSpy();
+});

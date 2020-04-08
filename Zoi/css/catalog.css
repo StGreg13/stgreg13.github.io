@@ -1,0 +1,100 @@
+ul.header-catalog {
+  margin: 0;
+}
+ul.header-catalog li {
+  display: inline;
+
+  padding: 0 15px;
+}
+.active {
+  color: #272727;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header-color {
+  background: #fbdcc9;
+}
+.sub-header {
+  padding: 15px;
+  background: #ffe6d6;
+}
+.catalog-part {
+  cursor: pointer;
+}
+.category-catalog {
+  padding-top: 20px;
+  background: rgba(251, 220, 201, 0.5);
+  padding-bottom: 150px;
+}
+.row {
+  margin-top: 20px;
+}
+/* .catalog-box {
+  text-align: center;
+  position: relative;
+}
+.catalog-img {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+.catalog-img {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+.catalog-shades {
+  display: none;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: rgba(216, 206, 187, 0.5);
+}
+.catalog-shades h4 {
+  text-transform: uppercase;
+  padding-top: 40%;
+}
+.catalog-img a:hover {
+  background: #000;
+} */
+
+/* \\ catalog \\ */
+
+.catalog-img {
+  position: relative;
+  margin: 2px;
+}
+.catalog-img,
+.catalog-img div,
+.catalog-img img {
+  width: 300px;
+  height: 300px;
+}
+.catalog-img div,
+.catalog-img img {
+  position: absolute;
+}
+.catalog-img img {
+  z-index: 1000;
+}
+.catalog-front {
+  z-index: 1001;
+  background-color: rgba(251, 220, 201, 0.5);
+  transition: all 0.4s ease-in-out 0s;
+  opacity: 0;
+  color: #272727;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+.catalog-front:hover {
+  opacity: 1;
+}
+.catalog-front span {
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 45% 0;
+}

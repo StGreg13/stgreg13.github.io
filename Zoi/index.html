@@ -43,7 +43,7 @@
   <body>
     <header class="main-header">
       <div class="primary-overlay">
-        <div class="navbar-fixed">
+        <div class="navbar">
           <nav class="transparent">
             <div class="container">
               <div class="nav-wrapper">
@@ -51,10 +51,10 @@
                   <i class="material-icons">menu</i>
                 </a>
                 <ul class="hide-on-med-and-down nav-block">
-                  <li><a href="#main" class="active">Main</a></li>
-                  <li><a href="#catalog">Catolog</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#main" class="#">Main</a></li>
+                  <li><a href="catalog.html">Catolog</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -67,10 +67,10 @@
           style="transform: translateX(-100%);"
         >
           <li><a class="divider"></a></li>
-          <li><a href="#main" class="active">Main</a></li>
-          <li><a href="#catalog">Catolog</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="active">Main</a></li>
+          <li><a href="catalog.html">Catolog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <!-- Showcase-->
         <div class="showcase container">
@@ -90,19 +90,23 @@
           <h3>Follow me on social</h3>
           <p>Follow me on social media for special offers</p>
           <div class="social-icons-links">
-            <a href="https://www.facebook.com/"
-              ><i class="fab fa-facebook-f large"></i
-            ></a>
+            <div>
+              <a href="https://www.facebook.com/"
+                ><i class="fab fa-facebook-f large"></i
+              ></a>
 
-            <a href="https://www.instagram.com/zoi_life_/"
-              ><i class="fab fa-instagram large"></i
-            ></a>
-            <a href="https://www.instagram.com/zoi_windchen/"
-              ><i class="fab fa-instagram large"></i
-            ></a>
-            <a href="https://vk.com/alisacarnelia"
-              ><i class="fab fa-vk large"></i
-            ></a>
+              <a href="https://www.instagram.com/zoi_life_/"
+                ><i class="fab fa-instagram large"></i
+              ></a>
+            </div>
+            <div>
+              <a href="https://www.instagram.com/zoi_windchen/"
+                ><i class="fab fa-instagram large"></i
+              ></a>
+              <a href="https://vk.com/alisacarnelia"
+                ><i class="fab fa-vk large"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
@@ -123,9 +127,7 @@
           <div class="col m6">
             <div class="card">
               <div class="card-image">
-                <a href="#romantica"
-                  ><img src="img/romantic-roller/kiss.png" alt=""
-                /></a>
+                <img src="img/romantic-roller/kiss.png" alt="" />
                 <span class="card-title">ROMANTICA</span>
               </div>
             </div>
@@ -136,9 +138,7 @@
           <div class="col m6">
             <div class="card">
               <div class="card-image">
-                <a href="#erocita"
-                  ><img src="img/erotic-roller/butt.png" alt=""
-                /></a>
+                <img src="img/erotic-roller/tit.png" alt="" />
                 <span class="card-title">EROTICA</span>
               </div>
             </div>
@@ -165,9 +165,7 @@
           <div class="col m6">
             <div class="card">
               <div class="card-image">
-                <a href="#fashion"
-                  ><img src="img/fashion-roller/walk.png" alt=""
-                /></a>
+                <img src="img/fashion-roller/walk.png" alt="" />
                 <span class="card-title">FASHION</span>
               </div>
             </div>
@@ -195,18 +193,35 @@
                 <h4>Also you can write me there:</h4>
               </li>
               <li class="collection-item">
-                <img src="img/icons/whatsapp.svg" alt="#" /><a href="">
-                  + 33 6 73 99 91 76</a
-                >
+                <!-- <p>WhatsApp</p> -->
+                <img
+                  src="img/icons/whatsapp.svg"
+                  alt="WhatsApp"
+                  width="50px"
+                  height="50px"
+                />
+                <a href=""> + 33 6 73 99 91 76</a>
               </li>
               <li class="collection-item">
-                <img src="img/icons/inst.svg" alt="" />
+                <!-- <p>instagramm</p> -->
+                <img
+                  src="img/icons/inst.svg"
+                  alt="instagramm"
+                  width="50px"
+                  height="50px"
+                />
                 <a href="https://www.instagram.com/zoi_windchen/">
                   zoi_windchen</a
                 >
               </li>
               <li class="collection-item">
-                <img src="img/icons/inst.svg" alt="" />
+                <!-- <p>instagramm</p> -->
+                <img
+                  src="img/icons/inst.svg"
+                  alt="instagramm"
+                  width="50px"
+                  height="50px"
+                />
                 <a href="https://www.instagram.com/zoi_life_"> zoi_life_</a>
               </li>
             </ul>
@@ -256,6 +271,7 @@
         </div>
       </div>
     </section>
+    <!-- <section class="footer"></section> -->
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- jQuery first, then Bootstrap JS. -->
