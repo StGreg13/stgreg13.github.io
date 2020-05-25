@@ -20,35 +20,31 @@
         <link rel="stylesheet" href="css/carousel.css"/>
     </head>
     <body>
-        <section class="headrer">
+        <section class="header">
             <div class="container">
-                <nav class="navbar navbar-expand-lg justify-content-between nav-box">
-                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" srcset=""/></a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Download Now</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between nav-box ">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" srcset=""/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse navbar-custom" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Download Now</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
             </div>
         </section>
         <section class="banner">
@@ -265,7 +261,7 @@
         <section class="leave">
             <div class="container container-leave">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 phone-leave">
                         <img src="img/mobile.png" alt="" class="img-leave"/>
                     </div>
                     <div class="col-sm-6">
@@ -320,7 +316,7 @@
     <section class="pricing">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 ">
                     <div class="head-pricing">
                         <p class="header-pricing">
                             We've got the perfect package for you
@@ -332,7 +328,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="box-pricing">
                         <p class="name-pricing">Basic</p>
                         <div class="tag-pricing">
@@ -350,7 +346,7 @@
                         <button class="btn-pricing">Buy Now</button>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="box-pricing popular-pricing">
                         <p class="name-pricing">Standard</p>
 
@@ -369,7 +365,7 @@
                         <button class="btn-pricing">Buy Now</button>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="box-pricing">
                         <p class="name-pricing">Premium</p>
                         <div class="tag-pricing">
@@ -387,7 +383,7 @@
                         <button class="btn-pricing">Buy Now</button>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="box-pricing">
                         <p class="name-pricing">Enterprise</p>
                         <div class="tag-pricing">
@@ -515,7 +511,7 @@
                 <div class="col-sm-12">
                     <p class="header-downloads">Download Giant App Now</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="item-downloads">
                         <div class="img-downloads">
                             <img src="img/icon/apple.png" alt=""/>
@@ -526,7 +522,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="item-downloads">
                         <div class="img-downloads">
                             <img src="img/icon/android.png" alt=""/>
@@ -535,7 +531,7 @@
                         <p class="text-downloads">Download from play store</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="item-downloads">
                         <div class="img-downloads">
                             <img src="img/icon/windows.png" alt=""/>
@@ -567,5 +563,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

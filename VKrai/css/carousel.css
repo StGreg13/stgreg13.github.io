@@ -350,3 +350,114 @@
 }
 
 /* COMMENTS CAROUSEL  */
+
+@media only screen and (max-width: 600px) {
+  .cards-wrapper {
+    height: 360px;
+    margin-top: -68px;
+  }
+  .item-screenshoot:nth-child(1) {
+    left: 8%;
+  }
+  .item-screenshoot:nth-child(2) {
+    left: 0%;
+  }
+
+  .item-screenshoot:nth-child(3) {
+    left: 0%;
+  }
+  .item-screenshoot:nth-child(5) {
+    left: 0%;
+  }
+  .item-screenshoot:nth-child(6) {
+    left: 0%;
+  }
+  .item-screenshoot:nth-child(7) {
+    left: -8%;
+  }
+
+  .item-screenshoot:nth-child(4) {
+    transform: scale(0.35);
+    z-index: 4;
+  }
+  .item-screenshoot:nth-child(6n + 1) {
+    transform: scale(0.1);
+    z-index: 1;
+  }
+
+  .item-screenshoot:nth-child(4n + 2) {
+    transform: scale(0.15);
+    z-index: 2;
+  }
+  .item-screenshoot:nth-child(5n + 3) {
+    transform: scale(0.25);
+    z-index: 3;
+  }
+  .item-screenshoot:nth-child(3n + 5) {
+    transform: scale(0.25);
+    z-index: 3;
+  }
+  .btn-left-screenshoot {
+    left: -5%;
+    z-index: 10;
+  }
+  .btn-right-screenshoot {
+    right: -5%;
+    z-index: 10;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1120px) {
+  .cards-wrapper {
+    height: 400px;
+    margin-top: -20px;
+  }
+  .item-screenshoot:nth-child(1) {
+    left: 8%;
+  }
+  .item-screenshoot:nth-child(2) {
+    left: 0%;
+  }
+
+  .item-screenshoot:nth-child(3) {
+    left: 0%;
+  }
+  .item-screenshoot:nth-child(5) {
+    left: 0%;
+  }
+  .item-screenshoot:nth-child(6) {
+    left: 0%;
+  }
+  .item-screenshoot:nth-child(7) {
+    left: -8%;
+  }
+
+  .item-screenshoot:nth-child(4) {
+    transform: scale(0.55);
+    z-index: 4;
+  }
+  .item-screenshoot:nth-child(6n + 1) {
+    transform: scale(0.2);
+    z-index: 1;
+  }
+
+  .item-screenshoot:nth-child(4n + 2) {
+    transform: scale(0.35);
+    z-index: 2;
+  }
+  .item-screenshoot:nth-child(5n + 3) {
+    transform: scale(0.45);
+    z-index: 3;
+  }
+  .item-screenshoot:nth-child(3n + 5) {
+    transform: scale(0.45);
+    z-index: 3;
+  }
+  .btn-left-screenshoot {
+    left: -5%;
+    z-index: 10;
+  }
+  .btn-right-screenshoot {
+    right: -5%;
+    z-index: 10;
+  }
+}
