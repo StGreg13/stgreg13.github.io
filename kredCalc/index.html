@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loan calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+  </head>
+  <body>
+    <header>
+      <p>Toska company</p>
+
+        <span>&#169; Toska company 2023</br>all right reservet</span>
+    </header>
+    <main>
+      <section class="welcome">
+        <h1>Loan calculator</h1>
+        <p>
+          Very convenient and fast calculator that allows you to quickly
+          calculate how profitable you offer a loan.
+        </p>
+      </section>
+      <section class="working">
+        <div class="switcher">
+          <span id="1" class="active">Differentiated</span>
+          <span id="2">Annuity</span>
+        </div>
+        <div class="generalData">
+          <label for="cost">cost</label>
+          <input id="cost" type="number" />
+          <label for="percent">percent</label>
+          <input id="percent" type="number" />
+          <label for="months">months</label>
+          <input id="months" type="number" />
+          <button id="calculate">Calculate</button>
+        </div>
+        <div class="timeline">
+          <canvas id="graph" width="500" height="400"></canvas>
+        </div>
+        <div class="paymentTable">
+          <p>Monthly payment calculation table</p>
+          <table id="paymentTable" class="horizontal">
+            <tr>
+              <td>Month</td>
+              <td>Payment</td>
+              <td>Interest</td>
+              <td>Remaining cost</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
