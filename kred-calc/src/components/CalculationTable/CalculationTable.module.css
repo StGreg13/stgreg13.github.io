@@ -1,0 +1,31 @@
+.paymentTable {
+    display: grid;
+    grid-area: 3 / 1 / 4 / 3;
+}
+.horizontal {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table.horizontal td {
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid #340570;
+}
+table.horizontal thead tr td,
+table.horizontal tbody tr:hover td {
+    background: #340570;
+    color: #fff;
+}
+table.horizontal thead tr:first-child td:first-child {
+    border-radius: 15px 0 0 0;
+}
+table.horizontal thead tr:first-child td:last-child {
+    border-radius: 0 15px 0 0 ;
+}
+table.horizontal tr:last-child td:first-child {
+    border-radius: 0 0 0 15px;
+}
+table.horizontal tr:last-child td:last-child {
+    border-radius: 0 0 15px 0;
+}

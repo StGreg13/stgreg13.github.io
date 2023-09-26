@@ -1,0 +1,8 @@
+header {
+    background: #C9F600;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+}
